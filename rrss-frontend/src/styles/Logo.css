@@ -1,0 +1,9 @@
+.logo {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  cursor: pointer;
+  z-index: 1000; /* Ensure it stays on top */
+}

@@ -1,0 +1,14 @@
+.recommendations {
+  padding: 20px;
+}
+
+.recommendations-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.recommendations-preview .product-card {
+  flex: 1 0 21%; /* Adjust for 5 cards in a row */
+  max-width: 220px;
+}
