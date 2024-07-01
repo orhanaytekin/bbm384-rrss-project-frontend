@@ -1,0 +1,18 @@
+/* ProductReviews.css */
+
+.product-reviews {
+  padding: 20px;
+}
+
+.product-reviews ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-reviews li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

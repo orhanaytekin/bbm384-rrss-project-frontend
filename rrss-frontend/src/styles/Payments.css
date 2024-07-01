@@ -1,0 +1,64 @@
+.payments-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payment-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-submit, .btn-cancel, .btn-edit, .btn-delete {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-cancel {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #007bff;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.payments-list {
+  margin-top: 20px;
+}
+
+.payment-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}

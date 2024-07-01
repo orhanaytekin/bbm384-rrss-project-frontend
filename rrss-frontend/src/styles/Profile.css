@@ -1,0 +1,28 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.profile-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.profile-title {
+  font-size: 1.5em;
+  font-family: 'Roboto', cursive;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.profile-text {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
